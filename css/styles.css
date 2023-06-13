@@ -124,7 +124,7 @@ ul {
 
 .backdrop {
   display: flex;
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: #00000033;
   position: fixed;
   left: 0;
   right: 0;
@@ -139,9 +139,9 @@ ul {
 .modal {
   position: relative;
   margin: auto;
-  background: #ffffff;
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
+  background: #fff;
+  box-shadow: 0px 1px 3px #0000001f, 0px 1px 1px #00000024,
+    0px 2px 1px #00000033;
   width: 528px;
   height: 581px;
   cursor: auto;
@@ -201,7 +201,7 @@ ul {
 .modal-input-div {
   width: 448px;
   height: 40px;
-  border: 1px solid rgba(33, 33, 33, 0.2);
+  border: 1px solid #21212133;
   border-radius: 4px;
   margin-bottom: 10px;
   display: flex;
@@ -215,7 +215,7 @@ ul {
 }
 .textarea-input-div {
   width: 448px;
-  border: 1px solid rgba(33, 33, 33, 0.2);
+  border: 1px solid #21212133;
   border-radius: 4px;
   display: flex;
   position: relative;
@@ -234,7 +234,7 @@ ul {
   font-size: 12px;
   line-height: 14px;
   letter-spacing: 0.01em;
-  color: rgba(117, 117, 117, 0.5);
+  color: #75757580;
 }
 .label:focus-within .modal-input-div,
 .label:focus-within .textarea-input-div {
@@ -321,7 +321,7 @@ ul {
 .header-block-shade {
   width: 100%;
   height: 100%;
-  background-color: rgba(47, 48, 58, 0.4);
+  background-color: #2f303a66;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -490,8 +490,8 @@ ul {
   display: block;
   margin-right: 30px;
   background: #ffffff;
-  box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.14),
-    0 1px 3px 0 rgba(0, 0, 0, 0.12);
+  box-shadow: 0 2px 1px 0 #00000033, 0 1px 1px 0 #00000024,
+    0 1px 3px 0 #0000001f;
 }
 .team-member:nth-child(4) {
   margin-right: 0;
@@ -626,7 +626,7 @@ ul {
 }
 .address-mail,
 .address-tel {
-  color: rgba(255, 255, 255, 0.6);
+  color: #ffffff99;
 }
 .footer-second-block {
   display: inline-block;
@@ -697,7 +697,7 @@ img {
   outline: none;
 }
 .newsletter-email-input:placeholder-shown {
-  border-color: rgba(255, 255, 255, 0.3);
+  border-color: #ffffff4d;
 }
 .newsletter-email-input[placeholder] {
   padding-left: 16px;
@@ -761,8 +761,8 @@ VVV PORTFOLIO SECTION VVV
 }
 .p-button:hover,
 .p-button:focus {
-  box-shadow: inset 0px 2px 2px 0 rgba(0, 0, 0, 0.12),
-    inset 0 1px 2px 0 rgba(0, 0, 0, 0.08), inset 0 3px 1px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: inset 0px 2px 2px 0 #0000001f, inset 0 1px 2px 0 #00000014,
+    inset 0 3px 1px 0 #0000001a;
 }
 .p-projects {
   display: flex;
@@ -777,8 +777,8 @@ VVV PORTFOLIO SECTION VVV
 
 .p-project:hover,
 .p-project:focus {
-  box-shadow: 1px 4px 6px 0 rgba(0, 0, 0, 0.16), 0 4px 4px 0 rgba(0, 0, 0, 0.06),
-    0 1px 1px 0 rgba(0, 0, 0, 0.12);
+  box-shadow: 1px 4px 6px 0 #00000029, 0 4px 4px 0 #0000000f,
+    0 1px 1px 0 #0000001f;
 }
 .p-project-img figure {
   position: relative;

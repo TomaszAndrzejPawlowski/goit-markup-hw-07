@@ -22,36 +22,34 @@
   </head>
 
   <body class="body">
-    <header class="header">
+    <header class="main-header">
       <div class="container">
-        <div class="container-flex">
-          <a class="webstudio-link" href="#"
+        <div class="main-header__flex-container flex-container">
+          <a class="flex-container__webstudio-link webstudio-link" href="#"
             ><span class="webstudio-link__span-web">Web</span>Studio</a
           >
-          <nav class="navigation">
+          <nav class="flex-container__navigation navigation">
             <ul class="navigation__list">
               <li class="navigation__item">
-                <a class="navigation__agency-link link" href="index.html#agency"
+                <a class="navigation__agency-link" href="index.html#agency"
                   >Agencja</a
                 >
               </li>
               <li class="navigation__item">
                 <a
-                  class="navigation__portfolio-link link"
+                  class="navigation__portfolio-link--underline"
                   href="https://tomaszandrzejpawlowski.github.io/goit-markup-hw-07/portfolio.html"
                   >Portfolio</a
                 >
               </li>
               <li class="navigation__item">
-                <a class="navigation__contact-link link" href="#contact"
-                  >Kontakty</a
-                >
+                <a class="navigation__contact-link" href="#contact">Kontakty</a>
               </li>
             </ul>
           </nav>
-          <ul class="contacts">
+          <ul class="flex-container__contacts contacts">
             <li class="contacts__item">
-              <a class="contacts__mail link" href="mailto:info@devstudio.com">
+              <a class="contacts__mail-link" href="mailto:info@devstudio.com">
                 <svg class="contacts__envelope-icon" width="16px" height="12px">
                   <use href="./images/icons-svg/icons.svg#icon-envelope"></use>
                 </svg>
@@ -59,7 +57,7 @@
               >
             </li>
             <li class="contacts__item">
-              <a class="contacts__tel link" href="tel:+48111111111"
+              <a class="contacts__tel-link" href="tel:+48111111111"
                 ><svg
                   class="contacts__smartphone-icon"
                   width="10px"
@@ -373,41 +371,41 @@
     </main>
     <footer>
       <div class="container">
-        <div class="footer-block">
-          <div class="footer-block__contact">
-            <a class="footer-block__webstudio-link link" href="#"
-              ><span class="footer-block__span-web">Web</span>Studio</a
+        <div class="main-footer">
+          <div class="footer-seaction__contact">
+            <a class="footer-seaction__webstudio-link" href="#"
+              ><span class="footer-seaction__span-web">Web</span>Studio</a
             >
-            <address class="address" id="contact">
+            <address class="footer-block__address address" id="contact">
               <ul class="address__list">
                 <li class="address__item">
                   <a
-                    class="address__map-link link"
+                    class="address__map-link"
                     href="https://goo.gl/maps/aFRLkCgBxppGDL6R9"
                     target="_blank"
                     >m. Warszawa, Aleje Jerozolimskie 21</a
                   >
                 </li>
                 <li class="address__item">
-                  <a class="address__mail link" href="mailto:info@example.com"
+                  <a class="address__mail" href="mailto:info@example.com"
                     >info@example.com</a
                   >
                 </li>
                 <li class="address__item">
-                  <a class="address__tel link" href="tel:+48111111111"
+                  <a class="address__tel" href="tel:+48111111111"
                     >+48 111 111 111</a
                   >
                 </li>
               </ul>
             </address>
           </div>
-          <div class="footer-social">
-            <h3 class="footer-social__headline">DOŁĄCZ DO NAS</h3>
-            <ul class="footer-social__links">
+          <div class="footer-seaction__social-icons social-icons">
+            <h3 class="social-icons__headline">DOŁĄCZ DO NAS</h3>
+            <ul class="social-icons__links">
               <li>
                 <a href="#"
-                  ><div class="footer-social__icon-border">
-                    <svg class="footer-social__icon" width="20px" height="20px">
+                  ><div class="social-icons__border">
+                    <svg class="social-icons__icon" width="20px" height="20px">
                       <use
                         href="./images/icons-svg/icons.svg#icon-instagram"
                       ></use>
@@ -417,8 +415,8 @@
               </li>
               <li>
                 <a href="#"
-                  ><div class="footer-social__icon-border">
-                    <svg class="footer-social__icon" width="20px" height="20px">
+                  ><div class="social-icons__border">
+                    <svg class="social-icons__icon" width="20px" height="20px">
                       <use
                         href="./images/icons-svg/icons.svg#icon-twitter"
                       ></use>
@@ -428,8 +426,8 @@
               </li>
               <li>
                 <a href="#"
-                  ><div class="footer-social__icon-border">
-                    <svg class="footer-social__icon" width="20px" height="20px">
+                  ><div class="social-icons__border">
+                    <svg class="social-icons__icon" width="20px" height="20px">
                       <use
                         href="./images/icons-svg/icons.svg#icon-facebook"
                       ></use>
@@ -439,8 +437,8 @@
               </li>
               <li>
                 <a href="#"
-                  ><div class="footer-social__icon-border">
-                    <svg class="footer-social__icon" width="20px" height="20px">
+                  ><div class="social-icons__border">
+                    <svg class="social-icons__icon" width="20px" height="20px">
                       <use
                         href="./images/icons-svg/icons.svg#icon-linkedin"
                       ></use>
@@ -450,7 +448,7 @@
               </li>
             </ul>
           </div>
-          <div class="newsletter">
+          <div class="footer-seaction__newsletter newsletter">
             <form name="newsletter">
               <label class="newsletter__label" for="newsletter-email"
                 >Zapisz się do newslettera
@@ -462,7 +460,7 @@
                 id="newsletter-email"
                 placeholder="E-mail"
               />
-              <button class="newsletter__button button" type="submit">
+              <button class="newsletter__button" type="submit">
                 Zapisz się
                 <svg class="newsletter__icon" width="24px" height="24px">
                   <use href="./images/icons-svg/icons.svg#icon-send"></use>
