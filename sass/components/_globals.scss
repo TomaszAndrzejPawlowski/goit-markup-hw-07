@@ -1,0 +1,21 @@
+@import "../utils/vars";
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: $primary-text-color;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+.containter {
+  width: 1200px;
+  margin: 0 auto;
+}
+a {
+  text-decoration: $links;
+  &:hover,
+  &:focus {
+    color: $primary-color;
+  }
+}
