@@ -5,10 +5,10 @@ $primary-color: #2196f3;
 $primary-text-color: #212121;
 $secondary-text-color: #757575;
 $header-logo-color: #000000;
-$header-background-shade: #2f303a66;
-$header-background: #2f303a;
+$header-background-shade-color: #2f303a66;
+$header-background-color: #2f303a;
 $backdrop-background-color: #00000033;
-$textarea-placeholder: #75757580;
+$textarea-placeholder-color: #75757580;
 $assets-icons-background-color: #f5f4fa;
 $gallery-img-labels-color: #2f303acc;
 $employee-socials-colors: #afb1b8;
@@ -19,6 +19,8 @@ $newsletter-border-color: #ffffff4d;
 $portfolio-buttons-color: #f5f4fa;
 $portfolio-overlays-color: #2196f3e6;
 
+$clients-icon-background: 1px solid #afb1b8;
+$clients-icon-background-active: 1px #2196f3 solid;
 $modal-inputs-borders: 1px solid #21212133;
 $forms-inputs-outline-colors: transparent;
 
@@ -30,3 +32,5 @@ $portfolio-selected-buttons-shadow: inset 0px 2px 2px 0 #0000001f,
   inset 0 1px 2px 0 #00000014, inset 0 3px 1px 0 #0000001a;
 $portfolio-selected-project-shadow: 1px 4px 6px 0 #00000029,
   0 4px 4px 0 #0000000f, 0 1px 1px 0 #0000001f;
+
+$primary-transitions: 250ms cubic-bezier(0.4, 0, 0.2, 1);

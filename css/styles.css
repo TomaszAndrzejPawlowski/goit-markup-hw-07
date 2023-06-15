@@ -105,22 +105,17 @@ ul {
 /* .link:hover,
 .link:focus {
   color: #2196f3;
-} */
-.button:hover,
-.button:focus {
-  color: #ffffff;
-  background-color: #2196f3;
-}
+} 
 .button {
   cursor: pointer;
 }
 
-.is-hidden {
+ .is-hidden {
   pointer-events: none;
   visibility: hidden;
   opacity: 0;
   transform: scale(0);
-}
+} 
 
 .backdrop {
   display: flex;
@@ -135,7 +130,7 @@ ul {
   transform: scale(1);
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
+} 
 .modal {
   position: relative;
   margin: auto;
@@ -173,7 +168,6 @@ ul {
   letter-spacing: 0.03em;
   color: #212121;
   align-items: center;
-  text-align: center;
   margin-top: 2px;
   margin-bottom: 12px;
 }
@@ -185,7 +179,6 @@ ul {
   line-height: 14px;
   letter-spacing: 0.01em;
   color: #757575;
-
   display: flex;
   flex-direction: column;
   align-content: space-around;
@@ -205,7 +198,7 @@ ul {
   border-radius: 4px;
   margin-bottom: 10px;
   display: flex;
-}
+} 
 .modal-input {
   margin: 10px auto 10px 0;
   width: 366px;
@@ -245,7 +238,7 @@ ul {
   margin: auto;
 }
 .label:focus-within .modal-icon {
-  fill: #2196f3;
+  fill: #2196f3; 
 }
 .modal-checkbox {
   position: relative;
@@ -294,7 +287,7 @@ ul {
 }
 .declaration-label {
   padding-left: 55px;
-}
+} 
 .declaration-link,
 .declaration-link:hover,
 .declaration-link:focus,
@@ -540,7 +533,6 @@ ul {
   padding: 94px 214px;
 }
 .our-clients {
-  font-family: Roboto;
   font-size: 36px;
   font-weight: 700;
   line-height: 42px;
@@ -554,7 +546,7 @@ ul {
 .client-icon-background {
   width: 170px;
   height: 92px;
-  border: 1px rgba(175, 177, 184, 1) solid;
+  border: 1px solid #afb1b8;
   border-radius: 4px;
 }
 .client-icon {
@@ -588,7 +580,7 @@ ul {
 }
 .icon-logo-5 {
   margin: 22px 38px 25px 38px;
-}
+}*/
 .footer {
   background: #2f303a;
 }
