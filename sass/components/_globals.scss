@@ -8,17 +8,24 @@ ul {
   list-style-type: none;
   padding: 0;
 }
-.containter {
+.container {
   width: 1200px;
   margin: 0 auto;
 }
 a {
   text-decoration: $links;
   &:hover,
-  &:focus {
+  &:focus,
+  &:visited:hover,
+  &:visited:focus {
     color: $primary-color;
   }
 }
 button {
   cursor: pointer;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
 }

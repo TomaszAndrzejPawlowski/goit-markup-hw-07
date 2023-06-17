@@ -21,7 +21,7 @@
     &:focus,
     &:hover {
       border: $clients-icon-background-active;
-      & > .client-icon {
+      & > .clients-section__icon {
         fill: $primary-color;
       }
     }

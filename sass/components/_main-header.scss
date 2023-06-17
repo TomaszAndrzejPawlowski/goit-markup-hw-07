@@ -1,14 +1,13 @@
 @import "../utils/vars";
-@import "globals";
 
 .main-header {
-  border-bottom: $border;
+  border-bottom: $main-header-border;
   &__flex-container {
     display: flex;
     align-items: baseline;
   }
   &__webstudio-link {
-    font-family: $primary-font;
+    font-family: $logo-font;
     color: $header-logo-color;
     text-decoration: none;
     font-size: 26px;
@@ -37,24 +36,39 @@
       margin-right: 0;
     }
   }
+
   &__agency-link,
   &__agency-link:visited {
-    color: $primary-color;
-  }
-  &__agency-link--underline::after {
-    content: "";
-    background-color: $primary-color;
-    display: block;
-    position: relative;
-    top: 25.5px;
-    width: 100%;
-    height: 4px;
-    border-radius: 2px;
-  }
-  &__portfolio-link {
     color: $primary-text-color;
-    &:visited {
-      color: $primary-text-color;
+  }
+  &__agency-link--underline {
+    color: $primary-color;
+    &::after {
+      content: "";
+      background-color: $primary-color;
+      display: block;
+      position: relative;
+      top: 25.5px;
+      width: 100%;
+      height: 4px;
+      border-radius: 2px;
+    }
+  }
+  &__portfolio-link,
+  &__portfolio-link:visited {
+    color: $primary-text-color;
+  }
+  &__portfolio-link--underline {
+    color: $primary-color;
+    &::after {
+      content: "";
+      background-color: $primary-color;
+      display: block;
+      position: relative;
+      top: 25.5px;
+      width: 100%;
+      height: 4px;
+      border-radius: 2px;
     }
   }
   &__contact-link {

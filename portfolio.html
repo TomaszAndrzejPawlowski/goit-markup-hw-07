@@ -17,18 +17,18 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
     <title>Portfolio</title>
   </head>
 
   <body>
     <header class="main-header">
       <div class="container">
-        <div class="main-header__flex-container flex-container">
-          <a class="flex-container__webstudio-link webstudio-link" href="#"
-            ><span class="webstudio-link__span-web">Web</span>Studio</a
+        <div class="main-header__flex-container">
+          <a class="main-header__webstudio-link" href="#"
+            ><span class="main-header__webstudio-link--span">Web</span>Studio</a
           >
-          <nav class="flex-container__navigation navigation">
+          <nav class="main-header__navigation navigation">
             <ul class="navigation__list">
               <li class="navigation__item">
                 <a class="navigation__agency-link" href="index.html#agency"
@@ -37,8 +37,8 @@
               </li>
               <li class="navigation__item">
                 <a
-                  class="navigation__portfolio-link--underline"
-                  href="https://tomaszandrzejpawlowski.github.io/goit-markup-hw-07/portfolio.html"
+                  class="navigation__portfolio-link navigation__portfolio-link--underline"
+                  href="portfolio.html#portfolio"
                   >Portfolio</a
                 >
               </li>
@@ -47,7 +47,7 @@
               </li>
             </ul>
           </nav>
-          <ul class="flex-container__contacts contacts">
+          <ul class="main-header__contacts contacts">
             <li class="contacts__item">
               <a class="contacts__mail-link" href="mailto:info@devstudio.com">
                 <svg class="contacts__envelope-icon" width="16px" height="12px">
@@ -106,8 +106,8 @@
         <ul class="portfolio-projects">
           <li class="portfolio-projects__item">
             <ul class="portfolio-projects__section">
-              <li class="portfolio-projects__img">
-                <figure>
+              <li>
+                <figure class="portfolio-projects__img">
                   <img
                     src="./images/portfolio/portfolio_img1.jpg"
                     alt="Strona referująca 3 pracowników."
@@ -136,8 +136,8 @@
           </li>
           <li class="portfolio-projects__item">
             <ul class="portfolio-projects__section">
-              <li class="portfolio-projects__img">
-                <figure>
+              <li>
+                <figure class="portfolio-projects__img">
                   <img
                     src="./images/portfolio/portfolio_img2.jpg"
                     alt="Dwóch rywalizujących koszykarzy w trakcie gry na abstrakcyjnym tle."
@@ -166,8 +166,8 @@
           </li>
           <li class="portfolio-projects__item">
             <ul class="portfolio-projects__section">
-              <li class="portfolio-projects__img">
-                <figure>
+              <li>
+                <figure class="portfolio-projects__img">
                   <img
                     src="./images/portfolio/portfolio_img3.jpg"
                     alt="Logo restauracji Seafood."
@@ -194,8 +194,8 @@
           </li>
           <li class="portfolio-projects__item">
             <ul class="portfolio-projects__section">
-              <li class="portfolio-projects__img">
-                <figure>
+              <li>
+                <figure class="portfolio-projects__img">
                   <img
                     src="./images/portfolio/portfolio_img4.jpg"
                     alt="Czarne słuchawki bezprzewodowe."
@@ -222,8 +222,8 @@
           </li>
           <li class="portfolio-projects__item">
             <ul class="portfolio-projects__section">
-              <li class="portfolio-projects__img">
-                <figure>
+              <li>
+                <figure class="portfolio-projects__img">
                   <img
                     src="./images/portfolio/portfolio_img5.jpg"
                     alt="Dwa pudełka, białe i brązowe, dwa razy mniejsze od białego."
@@ -250,8 +250,8 @@
           </li>
           <li class="portfolio-projects__item">
             <ul class="portfolio-projects__section">
-              <li class="portfolio-projects__img">
-                <figure>
+              <li>
+                <figure class="portfolio-projects__img">
                   <img
                     src="./images/portfolio/portfolio_img6.jpg"
                     alt="Monitor wyświetlający stronę internetową z ciemnym motywem, dużym nagłówkiem INSPIRATION HAS NO BOUNDS i obrazem mapy."
@@ -282,8 +282,8 @@
           </li>
           <li class="portfolio-projects__item">
             <ul class="portfolio-projects__section">
-              <li class="portfolio-projects__img">
-                <figure>
+              <li>
+                <figure class="portfolio-projects__img">
                   <img
                     src="./images/portfolio/portfolio_img7.jpg"
                     alt="Otwarty magazyn z dwoma zdjęciami ludzi na lewej stronie i jednym większym z napisem I'am Limited Edition na prawej"
@@ -312,8 +312,8 @@
           </li>
           <li class="portfolio-projects__item">
             <ul class="portfolio-projects__section">
-              <li class="portfolio-projects__img">
-                <figure>
+              <li>
+                <figure class="portfolio-projects__img">
                   <img
                     src="./images/portfolio/portfolio_img8.jpg"
                     alt="Metka z napisem LAB EL PSD Mockup TAG, napisane w 3 wierszach."
@@ -340,8 +340,8 @@
           </li>
           <li class="portfolio-projects__item">
             <ul class="portfolio-projects__section">
-              <li class="portfolio-projects__img">
-                <figure>
+              <li>
+                <figure class="portfolio-projects__img">
                   <img
                     src="./images/portfolio/portfolio_img9.jpg"
                     alt="Laptop wyświetlający stronę z nagłówkiem GROWING BUSINESS, na klawiaturze są widoczne ręce osoby."
@@ -369,14 +369,14 @@
         </ul>
       </div>
     </main>
-    <footer>
+    <footer class="main-footer">
       <div class="container">
-        <div class="main-footer">
-          <div class="footer-seaction__contact">
-            <a class="footer-seaction__webstudio-link" href="#"
-              ><span class="footer-seaction__span-web">Web</span>Studio</a
+        <div class="main-footer__container">
+          <div class="main-footer__contact">
+            <a class="main-footer__webstudio-link" href="#"
+              ><span class="main-footer__span-web">Web</span>Studio</a
             >
-            <address class="footer-block__address address" id="contact">
+            <address class="main-footer__address address" id="contact">
               <ul class="address__list">
                 <li class="address__item">
                   <a
@@ -399,7 +399,7 @@
               </ul>
             </address>
           </div>
-          <div class="footer-seaction__social-icons social-icons">
+          <div class="main-footer__social-icons social-icons">
             <h3 class="social-icons__headline">DOŁĄCZ DO NAS</h3>
             <ul class="social-icons__links">
               <li>
@@ -448,7 +448,7 @@
               </li>
             </ul>
           </div>
-          <div class="footer-seaction__newsletter newsletter">
+          <div class="main-footer__newsletter newsletter">
             <form name="newsletter">
               <label class="newsletter__label" for="newsletter-email"
                 >Zapisz się do newslettera
