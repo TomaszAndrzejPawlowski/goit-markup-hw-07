@@ -23,6 +23,8 @@
     &:hover,
     &:focus {
       box-shadow: $portfolio-selected-buttons-shadow;
+      color: #fff;
+      background-color: $primary-color;
     }
   }
 }
